@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    /* font-size: 10px; */
+    scroll-behavior: smooth;
+}
+
+
+/* header Design  */
+header{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    width: 40%;
+}
+
+/* Navigation menu */
+.menu{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    transition: all 1s linear;
+    transform: translate(20px, 20px);
+}
+
+nav ul li a:hover{
+    top: 10px;
+    /* font-size: 17px; */
+    color:cornflowerblue;
+    text-decoration: underline solid cornflowerblue;
+}
+
+/* menu */
+.menuimg{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: none;
+}
+
+.proImg{
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+.proImg img{
+    width: 20vw;
+    height: 30vh;
+}
+
+.home{
+    height: 350px;
+    color: aliceblue;
+    /* */
+    box-sizing: border-box;
+}
+.home .p{
+    font-size: 22px;
+    padding-top: 110px;
+    padding-left: 150px;
+}
+.home button{
+    background-color: blue;
+    color: aliceblue;
+    /* padding: 10px; */
+    border-radius: 20px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+.hiremodel{
+    color: black;
+}
+
+.home button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.home::before{
+    content: "";
+    /* background-image: url('https://thumbs.dreamstime.com/b/man-analysis-business-accounting-laptop-45719380.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    background-color: steelblue;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    z-index: -3;
+    filter: brightness(70%);
+}
+
+
+
+/* Profile Status animation */
+.profile ul{
+    list-style-type: none;
+    height: 18px;
+    line-height: 21px;
+    overflow: hidden;
+}
+
+.profile ul li{
+    font-size: 18px;
+    position: relative;
+    width: 180px;
+    animation: role 6s steps(4)  infinite;
+}
+@keyframes role{
+    from{
+        top: 0%;
+    }
+    to{
+        top: -90px;
+    }
+}
+
+.profile ul li span::after{
+    content: "";
+    position: absolute;
+    border-left: 2px solid steelblue;
+    background-color: steelblue;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+    animation: status 1.5s steps(16) infinite;
+}
+
+@keyframes status{
+    100%{
+        left: 100%;
+    }
+}
+
+
+.cards{
+    /* font-size: 5px; */
+    display: flex;
+    justify-content: space-around;
+}
+.para{
+    margin: 15px;
+    width: 25%;
+    border: 1px solid black;
+    /* font-size: 4em;
+    font-size: 3rem; */
+}
+.para h2{
+    text-align: center;
+    color: teal;
+    line-height: 30px;
+}
+
+.skills{
+    width: 50%;
+    margin: auto;
+    display: flex;   
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+.lang{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prog1{ background-color: orangered;}
+#prog2{ background-color: skyblue;}
+#prog3{ background-color: yellow;}
+#prog4{ background-color: red;color: aliceblue;}
+#prog5{ background-color: green; color: aliceblue;}
+#prog6{ background-color: green; color: aliceblue;}
+#prog7{ background-color: tomato;  color: aliceblue;}
+#prog8{ background-color: steelblue;  color: aliceblue;}
+#prog9{ background-color: tomato;  color: aliceblue;}
+#prog10{ background-color: violet;  color: aliceblue;}
+
+.lang:hover{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    box-shadow: 2px 2px 5px red;
+    animation: skills1 2s infinite;
+}
+@keyframes skills1{
+    from{
+        background-color: black;
+        rotate: 180deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+
+.project{
+    display: flex;
+    justify-content: space-around;
+}
+.project div{
+    padding: 10px;
+    width: 25%;
+    background-color: rgba(70, 130, 180,0.6);
+    color: azure;
+    text-align: center;
+    line-height: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+hr{
+    height: 5px;
+    background-color: violet;
+}
+
+.contpage{
+    padding: 15px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.con1{
+    padding-top: 120px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}

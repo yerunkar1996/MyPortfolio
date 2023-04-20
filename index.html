@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS units,Transition,Animation</title>
+  <link rel="stylesheet" href="./Css/style_rev9.css" />
+  <link rel="stylesheet" href="./Css/style_rev9_Responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+
+<body id="home1">
+  <header>
+    <div class="head">
+      <img
+        src="https://marketplace.canva.com/EAE9407gQAE/1/0/1600w/canva-rose-gold-photography-circle-logo-9uq8B--Pjcs.jpg"
+        width="70px" height="100%" alt="" />
+    </div>
+    <div class="menu">
+      <nav id="navbar">
+        <ul>
+          <li><a href="#home1">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#sk1">Skills</a></li>
+          <li><a href="#mproj">Projects</a></li>
+          <li><a href="#con">Contact</a></li>
+        </ul>
+      </nav>
+
+      <img class="menuimg" src="https://cdn-icons-png.flaticon.com/512/3388/3388823.png" width="30px" alt="">
+    </div>
+  </header>
+
+  <div class="home" id="about">
+    <div class="p">
+      <h4>Hello, I'm</h4>
+      <h2>James Smith</h2>
+      <div class="profile">
+        <ul>
+          <li><span>Full Stack Developer </span></li>
+          <li><span>Frontend Developer </span></li>
+          <li><span>Backend Developer </span></li>
+          <li><span>UI/Ux Developer </span></li>
+        </ul>
+      </div>
+
+      <!-- Hire me Form -->
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Hire ME
+</button>
+
+<!-- Modal -->
+<div class="modal fade hiremodel" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Hire me</h1>
+        <button type="button " class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="width:20px; height:20px;">X</button>
+      </div>
+      <div class="modal-body">
+        <input type="text" placeholder="name"> <br><br>
+        <input type="email" placeholder="email"><br><br>
+        <textarea cols="30" rows="2">
+        </textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+      <button ><a href="./images/Backend Development.docx" download="MyCV">Download CV</a></button>
+      <br /><br />
+
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+
+    <div class="proImg">
+      <img src="./images/man-with-beard-avatar-character-isolated-icon-free-vector.jpg"
+        alt="">
+    </div>
+  </div>
+
+  <div class="serv" id="service">
+    <h1 style="text-align: center">Services</h1>
+    <div class="cards">
+      <div class="para" id="serv1">
+        <h2>Web Designing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          assumenda quo at cumque corporis esse, modi beatae veritatis commodi
+          perspiciatis ducimus inventore, repudiandae distinctio quidem vero
+          a. Nesciunt, dolore fugit.
+        </p>
+      </div>
+      <div class="para" id="serv2">
+        <h2>Web Development</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          dolore laudantium sapiente veritatis, delectus facere soluta amet
+          quis ullam ipsa totam nihil ad odio maxime obcaecati illo, aut rem
+          a!
+        </p>
+      </div>
+      <div class="para" id="serv3">
+        <h2>Freelancer</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          iusto autem expedita illum deleniti maiores ad necessitatibus!
+          Quaerat nihil inventore illo, possimus laboriosam iste. Ab alias
+          nostrum labore eligendi ut.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sk" id="sk1">
+    <h1 style="text-align: center">Skills</h1>
+    <div class="skills">
+      <div class="lang" id="prog1">HTML</div>
+      <div class="lang" id="prog2">CSS</div>
+      <div class="lang" id="prog3">Javascript</div>
+      <div class="lang" id="prog4">Angular</div>
+      <div class="lang" id="prog5">MongoDB</div>
+      <div class="lang" id="prog6">Node Js</div>
+      <div class="lang" id="prog7">Express Js</div>
+      <div class="lang" id="prog8">MySQL</div>
+      <div class="lang" id="prog9">Python</div>
+      <div class="lang" id="prog10">Bootstrap</div>
+    </div>
+  </div>
+
+  <section class="project2" id="mproj">
+    <h1 style="text-align: center">Projects</h1>
+    <div class="project">
+      <div class="proj1">
+        <h2>Seven*Shop</h2>
+        <img src="https://b.zmtcdn.com/data/pictures/1/18245961/7d1687ee72cae786f4dff415eb56e725.jpg" alt=""
+          width="150px" height="150px" />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="proj2">
+        <h2>Student Management System</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgI6nCpWffH24d3woTVQot9wEM79DXt7KnECAFWcdug&usqp=CAU&ec=48665699"
+          alt="" width="150px" height="150px" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi
+          deserunt, eligendi omnis, saepe, nulla hic reiciendis.
+        </p>
+      </div>
+      <div class="proj3">
+        <h2>Mamaji Meals</h2>
+        <img src="https://image.cnbcfm.com/api/v1/image/104638084-KROGER_meal_kit.jpg?v=1529475906" width="150px"
+          height="150px" alt="" />
+        <p>
+          Lorem ipsum dolor molestiae quae error optio sapiente nisi non, quam
+          quasi provident.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact" id="con">
+    <h1 style="text-align: center;">Contact Me</h1>
+    <div class="contpage">
+      <div class="con1">
+        <h4>Contact No:- 7989541789</h4>
+        <h4>Address:- Nadco, Andheri West</h4>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Enter your name" /><br /><br />
+        <input type="email" placeholder="Enter your Mail" /><br /><br />
+        <textarea id="" cols="35" placeholder="message me" rows="5"></textarea>
+        <br /><br />
+        <button>Contact Me</button> <br /><br />
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer>Created By YN proj | &COPY; 2022 All rights reserved.</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

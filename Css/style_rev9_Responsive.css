@@ -1,0 +1,18 @@
+@media (min-width:600px) and (max-width:850px){
+  header nav{
+    display: none;
+  }
+  .menuimg{
+    display: block;
+  }
+  .menu:hover nav{
+    display: block;
+  }
+}
+
+
+@media screen and (max-width:500px){
+  .navbar{
+    display: none;
+  }
+}
